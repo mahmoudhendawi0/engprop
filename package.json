@@ -1,0 +1,20 @@
+{
+  "name": "engprop-platform",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "concurrently -k -n API,WEB \"npm run dev --workspace @engprop/backend\" \"npm run dev --workspace @engprop/frontend\"",
+    "build": "npm run build --workspace @engprop/frontend",
+    "start": "npm run start --workspace @engprop/backend",
+    "lint": "oxlint frontend/src backend/src",
+    "preview": "npm run preview --workspace @engprop/frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.5",
+    "oxlint": "^1.81.0"
+  }
+}

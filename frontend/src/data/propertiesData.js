@@ -1,0 +1,538 @@
+export const propertiesData = [
+  {
+    id: "prop-1",
+    title: "فيلا حديثة للبيع في إعزاز بتصميم عصري ومسبح",
+    slug: "villa-azaz-modern-luxury",
+    type: "فيلا",
+    purpose: "للبيع",
+    priceUSD: 185000,
+    priceSYP: "2,775,000,000",
+    city: "إعزاز",
+    district: "الحي الشرقي الجديد",
+    address: "إعزاز - طريق عفرين بالقرب من الحديقة المركزية",
+    area: 420,
+    bedrooms: 5,
+    bathrooms: 4,
+    livingRooms: 2,
+    floors: 2,
+    floorNumber: "طابقين مستقلين",
+    yearBuilt: 2024,
+    facing: "جنوبي شرقي",
+    featured: true,
+    verified: true,
+    rating: 4.9,
+    reviewsCount: 28,
+    image: "/assets/properties/luxury_villa_azaz.jpg",
+    gallery: [
+      "/assets/properties/luxury_villa_azaz.jpg",
+      "/assets/properties/villa_night_pool.jpg",
+      "/assets/properties/duplex_villa_pool.jpg",
+      "/assets/images/0342e4849ee5e228880170b0433b30d1d1d6fcde.png"
+    ],
+    description: "فيلا فخمة بتصميم معماري حديث وتشطيب سوبر ديلوكس بإعزاز. تشتمل على حديقة خاصة مشجرة ومسبح مجهز بنظام تنقية كامل، صالون استقبال واسع مع واجهات زجاجية مزدوجة عازلة للصوت والحرارة، نظام طاقة شمسية مستقل 10KVA، وتدفئة أرضية.",
+    features: [
+      "مسبح خاص مع نظام فلترة",
+      "طاقة شمسية 10KVA",
+      "كراج سيارات مظلل لـ 3 سيارات",
+      "نظام كاميرات مراقبة وحماية",
+      "حديقة مشجرة مع جلسة خارجية",
+      "تكييف مركزي وتدفئة",
+      "غرفة خادمة مستقلة",
+      "سند تمليك طابو نظامي أخضر"
+    ],
+    nearbyServices: [
+      { name: "مدرسة إعزاز النموذجية", distance: "450 متر" },
+      { name: "مشفى إعزاز الوطني", distance: "1.2 كم" },
+      { name: "سوق المدينة التجاري", distance: "800 متر" },
+      { name: "مسجد الفاروق", distance: "200 متر" }
+    ],
+    agency: {
+      id: "agency-1",
+      name: "مكتب المهندس محمود هنداوي العقاري",
+      agentName: "المهندس محمود هنداوي",
+      phone: "0951494682",
+      whatsapp: "963951494682",
+      avatar: "/assets/images/cca0869e035d3042041e5aea3cf29f0b2cd44c1c.png",
+      verified: true,
+      rating: 4.9,
+      propertiesCount: 24
+    },
+    coords: { lat: 36.586, lng: 37.044 },
+    viewsCount: 1420,
+    createdAt: "2026-03-15"
+  },
+  {
+    id: "prop-2",
+    title: "شقة الميدان 3 غرف للإيجار السكني المفروش",
+    slug: "apartment-midan-3-rooms",
+    type: "شقة",
+    purpose: "للإيجار",
+    priceUSD: 350,
+    pricePer: "شهر",
+    priceSYP: "5,250,000",
+    city: "دمشق",
+    district: "الميدان",
+    address: "دمشق - الميدان الفوقاني بالقرب من جامع الدقاق",
+    area: 145,
+    bedrooms: 3,
+    bathrooms: 2,
+    livingRooms: 1,
+    floors: 1,
+    floorNumber: "الطابق الثالث مع مصعد",
+    yearBuilt: 2022,
+    facing: "قبلي غربي",
+    featured: true,
+    verified: true,
+    rating: 4.8,
+    reviewsCount: 19,
+    image: "/assets/properties/modern_apartment_midan.jpg",
+    gallery: [
+      "/assets/properties/modern_apartment_midan.jpg",
+      "/assets/images/2c544526884ee3d82a07126d1f6f9ef87a0efe96.png",
+      "/assets/properties/office_damascus.jpg"
+    ],
+    description: "شقة سكنية مميزة في حي الميدان التاريخي الهادئ، مفروشة بالكامل بأثاث عصري أنيق وأجهزة كهربائية كاملة تشمل ثلاجة وشاشات ذكية وغسالة أوتوماتيك. مصعد حديث يعمل بالطاقة البديلة وخزان مياه مستقل.",
+    features: [
+      "مفروشة بالكامل بأثاث فاخر",
+      "مصعد يعمل 24/7 مع طاقة بديلة",
+      "بلكون واسع بإطلالة لطيفة",
+      "مطبخ مجهز بكافة الأجهزة",
+      "خزان مياه 2000 لتر مستقل",
+      "انترنت فايبر سريع",
+      "موقف سيارات لسكان البناء"
+    ],
+    nearbyServices: [
+      { name: "جامع الدقاق الشهير", distance: "150 متر" },
+      { name: "مستشفى الميدان", distance: "600 متر" },
+      { name: "أسواق الميدان وجزماتية", distance: "300 متر" },
+      { name: "محطة باصات النقل السريع", distance: "250 متر" }
+    ],
+    agency: {
+      id: "agency-2",
+      name: "مكتب الشام العقاري",
+      agentName: "أبو أحمد الشامي",
+      phone: "+963933456789",
+      whatsapp: "963933456789",
+      avatar: "/assets/images/850439d7a991173aebe4548459f60a322cd78ee8.jpg",
+      verified: true,
+      rating: 4.8,
+      propertiesCount: 38
+    },
+    coords: { lat: 33.493, lng: 36.299 },
+    viewsCount: 2150,
+    createdAt: "2026-03-18"
+  },
+  {
+    id: "prop-3",
+    title: "بنتهاوس فخم مع إطلالة بانورامية في حلب",
+    slug: "penthouse-aleppo-panoramic",
+    type: "شقة",
+    purpose: "للبيع",
+    priceUSD: 140000,
+    priceSYP: "2,100,000,000",
+    city: "حلب",
+    district: "الشهباء الجديدة",
+    address: "حلب - الشهباء الجديدة شارع الفيلات",
+    area: 260,
+    bedrooms: 4,
+    bathrooms: 3,
+    livingRooms: 2,
+    floors: 1,
+    floorNumber: "الطابق الأخير (رووف)",
+    yearBuilt: 2023,
+    facing: "مفتوح على 3 جهات",
+    featured: true,
+    verified: true,
+    rating: 4.9,
+    reviewsCount: 34,
+    image: "/assets/properties/apartment_interior.jpg",
+    gallery: [
+      "/assets/properties/apartment_interior.jpg",
+      "/assets/properties/modern_apartment_midan.jpg",
+      "/assets/images/358271169021d76984b19b65992db7f8e4907d45.png"
+    ],
+    description: "بنتهاوس استثنائي في أرقى أحياء حلب، يمتلك تراساً واسعاً بمساحة 70 متراً مربعاً مع جلسة باربيكيو وإطلالة ساحرة على أفق المدينة. صالون رخامي مفتوح ومدفأة ديكورية حديثة ومطبخ أمريكي راقي.",
+    features: [
+      "تراس بانورامي 70م² مع باربيكيو",
+      "أرضيات رخام إيطالي نخب أول",
+      "نظام إضاءة ذكي Smart Home",
+      "جناح نوم رئيسي ماستر مع جاكوزي",
+      "عزل صوتي وحراري كامل",
+      "موقفين خاصين بالبدروم",
+      "مصعدين في البناء"
+    ],
+    nearbyServices: [
+      { name: "جامعة حلب", distance: "1.5 كم" },
+      { name: "مشفى الشهباء التخصصي", distance: "500 متر" },
+      { name: "مول حلب الجديد", distance: "900 متر" }
+    ],
+    agency: {
+      id: "agency-3",
+      name: "وساطة الشهباء للعقارات",
+      agentName: "م. حسام الحلبي",
+      phone: "+963944789123",
+      whatsapp: "963944789123",
+      avatar: "/assets/images/87ea91d53ce51406e5a97ab1e6592c3dbc3b4ae8.jpg",
+      verified: true,
+      rating: 4.9,
+      propertiesCount: 31
+    },
+    coords: { lat: 36.216, lng: 37.134 },
+    viewsCount: 1890,
+    createdAt: "2026-03-20"
+  },
+  {
+    id: "prop-4",
+    title: "مكتب تجاري حديث متكامل بدمشق للاستثمار والشركات",
+    slug: "commercial-office-damascus",
+    type: "مكتب",
+    purpose: "للإيجار",
+    priceUSD: 600,
+    pricePer: "شهر",
+    priceSYP: "9,000,000",
+    city: "دمشق",
+    district: "المزة أوتوستراد",
+    address: "دمشق - أوتوستراد المزة بجانب البرج التجاري",
+    area: 180,
+    bedrooms: 0,
+    bathrooms: 2,
+    livingRooms: 4,
+    floors: 1,
+    floorNumber: "الطابق الرابع",
+    yearBuilt: 2023,
+    facing: "مطل على الأوتوستراد",
+    featured: true,
+    verified: true,
+    rating: 4.7,
+    reviewsCount: 15,
+    image: "/assets/properties/office_damascus.jpg",
+    gallery: [
+      "/assets/properties/office_damascus.jpg",
+      "/assets/properties/modern_apartment_midan.jpg",
+      "/assets/images/8567188e142e37e54b17b6915fdc929813d0d95e.png"
+    ],
+    description: "مكتب إداري وتجاري متكامل جاهز لاستقبال مقرات الشركات والمنظمات والمكاتب الهندسية. قواطع زجاجية عصرية، شبكة بيانات موصلة، غرفة اجتماعات مجهزة بشاشة عرض، استقبال وأوفيس وبوفيه مستقل.",
+    features: [
+      "مجهز بالكامل للشركات والمؤسسات",
+      "قواطع زجاجية وغرفة اجتماعات",
+      "شبكة كابلات Cat6 ونقاط وصول فايبر",
+      "مولدة كهربائية ونظام UPS",
+      "أمن واستقبال مدار الساعة في البرج",
+      "مواقف سيارات لعملاء وموظفي المكتب"
+    ],
+    nearbyServices: [
+      { name: "البنوك والمصارف التجارية", distance: "100 متر" },
+      { name: "فندق الشام ريجنسي", distance: "700 متر" },
+      { name: "مدينة المعارض القديمة", distance: "1.1 كم" }
+    ],
+    agency: {
+      id: "agency-2",
+      name: "مكتب الشام العقاري",
+      agentName: "أبو أحمد الشامي",
+      phone: "+963933456789",
+      whatsapp: "963933456789",
+      avatar: "/assets/images/850439d7a991173aebe4548459f60a322cd78ee8.jpg",
+      verified: true,
+      rating: 4.8,
+      propertiesCount: 38
+    },
+    coords: { lat: 33.501, lng: 36.262 },
+    viewsCount: 970,
+    createdAt: "2026-03-21"
+  },
+  {
+    id: "prop-5",
+    title: "فيلا ريفية دوبلكس مع مسبح وإطلالة طبيعية خلابة",
+    slug: "countryside-villa-pool-aleppo",
+    type: "فيلا",
+    purpose: "للبيع",
+    priceUSD: 230000,
+    priceSYP: "3,450,000,000",
+    city: "ريف حلب",
+    district: "عفرين / ريف إعزاز",
+    address: "طريق حلب - إعزاز الزراعي السريع",
+    area: 550,
+    bedrooms: 6,
+    bathrooms: 5,
+    livingRooms: 3,
+    floors: 2,
+    floorNumber: "فيلا مستقلة طابقين",
+    yearBuilt: 2024,
+    facing: "أربع جهات مفتوحة",
+    featured: true,
+    verified: true,
+    rating: 5.0,
+    reviewsCount: 42,
+    image: "/assets/properties/duplex_villa_pool.jpg",
+    gallery: [
+      "/assets/properties/duplex_villa_pool.jpg",
+      "/assets/properties/villa_afternoon_pool.jpg",
+      "/assets/properties/villa_night_pool.jpg",
+      "/assets/images/7e1c0901b1905bbe13f77baf7526d846290e58c4.png"
+    ],
+    description: "فيلا منتجع راقية مبنية على أرض واسعة مساحتها 1200 متر مربع. مسبح خاص مضاء مع شلال ديكوري، جلسات مشرفة على بساتين الزيتون، بئر ماء ارتوازي مع محطة تحلية، وبناء حراسة مستقل.",
+    features: [
+      "مساحة أرض إجمالية 1200م²",
+      "مسبح إنفينيتي مع إطلالة مفتوحة",
+      "بئر ماء ارتوازي مرخص",
+      "طاقة شمسية بطاريات ليثيوم حديثة",
+      "ملعب عشب للأطفال ومشاوي خارجية",
+      "سور حجري مرتفع وبوابة أوتوماتيكية",
+      "طابو ملكية خاص مسجل"
+    ],
+    nearbyServices: [
+      { name: "مركز إعزاز الخدمي", distance: "4 كم" },
+      { name: "مستشفى السلام التخصصي", distance: "3.5 كم" }
+    ],
+    agency: {
+      id: "agency-1",
+      name: "مكتب المهندس محمود هنداوي العقاري",
+      agentName: "المهندس محمود هنداوي",
+      phone: "0951494682",
+      whatsapp: "963951494682",
+      avatar: "/assets/images/cca0869e035d3042041e5aea3cf29f0b2cd44c1c.png",
+      verified: true,
+      rating: 4.9,
+      propertiesCount: 24
+    },
+    coords: { lat: 36.562, lng: 37.018 },
+    viewsCount: 3100,
+    createdAt: "2026-03-21"
+  },
+  {
+    id: "prop-6",
+    title: "شقة مفروشة للإيجار في إعزاز الحي الغربي",
+    slug: "apartment-azaz-west-rent",
+    type: "شقة",
+    purpose: "للإيجار",
+    priceUSD: 280,
+    pricePer: "شهر",
+    priceSYP: "4,200,000",
+    city: "إعزاز",
+    district: "الحي الغربي",
+    address: "إعزاز - شارع المركز الثقافي",
+    area: 120,
+    bedrooms: 2,
+    bathrooms: 1,
+    livingRooms: 1,
+    floors: 1,
+    floorNumber: "الطابق الثاني",
+    yearBuilt: 2023,
+    facing: "جنوبي",
+    featured: false,
+    verified: true,
+    rating: 4.6,
+    reviewsCount: 11,
+    image: "/assets/properties/villa_infinity_pool.jpg",
+    gallery: [
+      "/assets/properties/villa_infinity_pool.jpg",
+      "/assets/properties/modern_apartment_midan.jpg",
+      "/assets/images/369192f431b7d2ce884e99534a2e889c230e8585.png"
+    ],
+    description: "شقة أنيقة مناسبة للموظفين أو العائلات الصغيرة، مجهزة بأثاث كامل نظيف، انترنت سريع، تدفئة مركزية بالمازوت، وخزان مياه مستقل. قريبة من السوق والخدمات والمواصلات.",
+    features: [
+      "مفروشة بالكامل وجاهزة للسكن فوراً",
+      "تدفئة مركزية",
+      "انترنت واي فاي سريع مجاني",
+      "شارع هادئ ومخدم بالإضاءة الليلية",
+      "مياه وكهرباء مستقرة"
+    ],
+    nearbyServices: [
+      { name: "المركز الثقافي", distance: "200 متر" },
+      { name: "سوق الخضار والمركز", distance: "400 متر" },
+      { name: "صيدلية النور", distance: "100 متر" }
+    ],
+    agency: {
+      id: "agency-1",
+      name: "مكتب محمد العقاري",
+      agentName: "محمد الحمد",
+      phone: "+963955123456",
+      whatsapp: "963955123456",
+      avatar: "/assets/images/cca0869e035d3042041e5aea3cf29f0b2cd44c1c.png",
+      verified: true,
+      rating: 4.9,
+      propertiesCount: 24
+    },
+    coords: { lat: 36.589, lng: 37.038 },
+    viewsCount: 880,
+    createdAt: "2026-03-22"
+  },
+  {
+    id: "prop-7",
+    title: "بنتهاوس فاخر بإطلالة بحرية بانورامية في اللاذقية",
+    slug: "penthouse-latakia-sea-view",
+    type: "شقة",
+    purpose: "للبيع",
+    priceUSD: 195000,
+    priceSYP: "2,925,000,000",
+    city: "اللاذقية",
+    district: "الكورنيش الجنوبي",
+    address: "اللاذقية - الكورنيش الجنوبي أمام المارينا",
+    area: 280,
+    bedrooms: 4,
+    bathrooms: 3,
+    livingRooms: 2,
+    floors: 1,
+    floorNumber: "الطابق العاشر مع مصعدين",
+    yearBuilt: 2024,
+    facing: "واجهة بحرية غربية كاملة",
+    featured: true,
+    verified: true,
+    rating: 4.95,
+    reviewsCount: 38,
+    image: "/assets/properties/penthouse_sea_view.jpg",
+    gallery: [
+      "/assets/properties/penthouse_sea_view.jpg",
+      "/assets/properties/villa_infinity_pool.jpg",
+      "/assets/images/7e1c0901b1905bbe13f77baf7526d846290e58c4.png"
+    ],
+    description: "شقة بنتهاوس فائقة الفخامة بإطلالة بحرية مباشرة لا تحجب. تراس خارجي واسع مع مسبح جاكوزي خاص، صالون فخم بواجهات زجاجية ممتدة من الأرض إلى السقف، وتشطيبات راقية من الرخام والخشب الطبيعي.",
+    features: [
+      "إطلالة بحرية بانورامية مفتوحة 180 درجة",
+      "جاكوزي خاص على التراس المطل",
+      "تكييف مركزي ونظام عزل حراري ومائي",
+      "حراسة أمنية ومصعد خاص للملاك",
+      "طابو أخضر نظامي 2400 سهم"
+    ],
+    nearbyServices: [
+      { name: "مارينا اللاذقية لليخوت", distance: "200 متر" },
+      { name: "فندق ومنتجع الشاطئ الأزرق", distance: "1.5 كم" }
+    ],
+    agency: {
+      id: "agency-2",
+      name: "مكتب الشام العقاري",
+      agentName: "أبو أحمد الشامي",
+      phone: "+963933456789",
+      whatsapp: "963933456789",
+      avatar: "/assets/images/850439d7a991173aebe4548459f60a322cd78ee8.jpg",
+      verified: true,
+      rating: 4.8,
+      propertiesCount: 38
+    },
+    coords: { lat: 35.531, lng: 35.792 },
+    viewsCount: 2840,
+    createdAt: "2026-03-22"
+  },
+  {
+    id: "prop-8",
+    title: "فيلا كلاسيكية حديثة للبيع في حلب بحي الفيلات",
+    slug: "classic-villa-aleppo",
+    type: "فيلا",
+    purpose: "للبيع",
+    priceUSD: 210000,
+    priceSYP: "3,150,000,000",
+    city: "حلب",
+    district: "حي الفيلات",
+    address: "حلب - حي الفيلات بالقرب من النادي الرياضي",
+    area: 480,
+    bedrooms: 5,
+    bathrooms: 4,
+    livingRooms: 2,
+    floors: 2,
+    floorNumber: "طابقين وحديقة خاصة",
+    yearBuilt: 2023,
+    facing: "جنوبي غربي",
+    featured: true,
+    verified: true,
+    rating: 4.85,
+    reviewsCount: 27,
+    image: "/assets/properties/villa_afternoon_pool.jpg",
+    gallery: [
+      "/assets/properties/villa_afternoon_pool.jpg",
+      "/assets/properties/luxury_villa_azaz.jpg",
+      "/assets/properties/villa_night_pool.jpg",
+      "/assets/images/c43650c2456a6bee2ab9c950a3ee96da0d80bc86.png"
+    ],
+    description: "فيلا سكنية فاخرة بتصميم معماري أصيل وتشطيب حجر حلبي طبيعي فاخر. مسبح عائلي، تدفئة أرضية، وصالونات استقبال فسيحة مناسبة للعائلات الراقية.",
+    features: [
+      "حجر حلبي نخب أول",
+      "مسبح عائلي خاص",
+      "كراج مظلل يتسع لـ 4 سيارات",
+      "طاقة شمسية 15KVA",
+      "غرفة حارس وسائق مستقلة"
+    ],
+    nearbyServices: [
+      { name: "النادي الرياضي", distance: "300 متر" },
+      { name: "مدرسة الفيلات الخاصة", distance: "600 متر" }
+    ],
+    agency: {
+      id: "agency-3",
+      name: "وساطة الشهباء للعقارات",
+      agentName: "م. حسام الحلبي",
+      phone: "+963944789123",
+      whatsapp: "963944789123",
+      avatar: "/assets/images/87ea91d53ce51406e5a97ab1e6592c3dbc3b4ae8.jpg",
+      verified: true,
+      rating: 4.9,
+      propertiesCount: 31
+    },
+    coords: { lat: 36.223, lng: 37.142 },
+    viewsCount: 1650,
+    createdAt: "2026-03-22"
+  }
+];
+
+import { agenciesData } from './agenciesData.js';
+import { contractsData } from './contractsData.js';
+
+export const normalizedProperties = propertiesData.map(p => ({
+  ...p,
+  price: p.priceUSD || p.price || 0,
+  priceUSD: p.priceUSD || p.price || 0,
+  priceUnit: p.purpose === 'للإيجار' ? (p.pricePer ? `$ / ${p.pricePer}` : '$ / شهر') : '$',
+  images: (p.gallery && p.gallery.length > 0) ? p.gallery : (p.image ? [p.image] : ['/assets/images/74e3791940a62972275dd2c23dbee27e57215cf5.jpg']),
+  image: p.image || (p.gallery && p.gallery[0]) || '/assets/images/74e3791940a62972275dd2c23dbee27e57215cf5.jpg',
+  location: p.location || p.address || `${p.city || ''} - ${p.district || ''}`,
+  rooms: p.rooms ?? p.bedrooms ?? 0,
+  bedrooms: p.bedrooms ?? p.rooms ?? 0,
+  publishedAt: p.publishedAt || 'منذ يومين'
+}));
+
+const propertyPhotoSets = {
+  'prop-1': ['/assets/images/74e3791940a62972275dd2c23dbee27e57215cf5.jpg', '/assets/images/614f66a16dbe4a11ecf31e286b252ab316f120aa.png', '/assets/images/53ee67db148deef332a8afd240ab7e3dc287db8a.png'],
+  'prop-2': ['/assets/images/af96a8dfef4a405a6b98308528432440891a8af7.jpg', '/assets/images/a765a62d22939492ed9b6a7e9358a60f09603ea2.png', '/assets/images/74e3791940a62972275dd2c23dbee27e57215cf5.jpg'],
+  'prop-3': ['/assets/images/a765a62d22939492ed9b6a7e9358a60f09603ea2.png', '/assets/images/af96a8dfef4a405a6b98308528432440891a8af7.jpg', '/assets/images/a765a62d22939492ed9b6a7e9358a60f09603ea2.png'],
+  'prop-4': ['/assets/images/74e3791940a62972275dd2c23dbee27e57215cf5.jpg', '/assets/images/9dacb1c0fef6be5ce4bf920ee302085bcd3c8c62.jpg', '/assets/images/614f66a16dbe4a11ecf31e286b252ab316f120aa.png'],
+  'prop-5': ['/assets/images/614f66a16dbe4a11ecf31e286b252ab316f120aa.png', '/assets/images/74e3791940a62972275dd2c23dbee27e57215cf5.jpg', '/assets/images/53ee67db148deef332a8afd240ab7e3dc287db8a.png'],
+  'prop-6': ['/assets/images/53ee67db148deef332a8afd240ab7e3dc287db8a.png', '/assets/images/74e3791940a62972275dd2c23dbee27e57215cf5.jpg', '/assets/images/614f66a16dbe4a11ecf31e286b252ab316f120aa.png'],
+  'prop-7': ['/assets/images/af96a8dfef4a405a6b98308528432440891a8af7.jpg', '/assets/images/a765a62d22939492ed9b6a7e9358a60f09603ea2.png', '/assets/images/9dacb1c0fef6be5ce4bf920ee302085bcd3c8c62.jpg'],
+  'prop-8': ['/assets/images/74e3791940a62972275dd2c23dbee27e57215cf5.jpg', '/assets/images/614f66a16dbe4a11ecf31e286b252ab316f120aa.png', '/assets/images/53ee67db148deef332a8afd240ab7e3dc287db8a.png']
+};
+
+const defaultPropertyPhotos = propertyPhotoSets['prop-1'];
+normalizedProperties.forEach((property) => {
+  const photos = propertyPhotoSets[property.id] || defaultPropertyPhotos;
+  property.image = photos[0];
+  property.images = photos;
+  property.gallery = photos;
+});
+
+export const properties = normalizedProperties;
+export const agencies = agenciesData;
+export const contractsList = contractsData;
+
+export const cities = [
+  { name: "إعزاز", count: 28, image: "/assets/properties/luxury_villa_azaz.jpg" },
+  { name: "دمشق", count: 42, image: "/assets/properties/modern_apartment_midan.jpg" },
+  { name: "حلب", count: 35, image: "/assets/properties/duplex_villa_pool.jpg" },
+  { name: "اللاذقية", count: 19, image: "/assets/properties/penthouse_sea_view.jpg" },
+  { name: "حمص", count: 15, image: "/assets/properties/apartment_interior.jpg" },
+  { name: "طرطوس", count: 11, image: "/assets/properties/office_damascus.jpg" }
+];
+
+const cityPropertyPhotos = [
+  '/assets/images/74e3791940a62972275dd2c23dbee27e57215cf5.jpg',
+  '/assets/images/af96a8dfef4a405a6b98308528432440891a8af7.jpg',
+  '/assets/images/74e3791940a62972275dd2c23dbee27e57215cf5.jpg',
+  '/assets/images/af96a8dfef4a405a6b98308528432440891a8af7.jpg',
+  '/assets/images/a765a62d22939492ed9b6a7e9358a60f09603ea2.png',
+  '/assets/images/9dacb1c0fef6be5ce4bf920ee302085bcd3c8c62.jpg'
+];
+cities.forEach((city, index) => { city.image = cityPropertyPhotos[index] || cityPropertyPhotos[0]; });
+
+export const platformStats = {
+  totalProperties: 150,
+  activeAgencies: 18,
+  activeContracts: 46,
+  monthlyVisits: "28.5K"
+};
